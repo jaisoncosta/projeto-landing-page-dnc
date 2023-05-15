@@ -1,0 +1,149 @@
+* {
+    margin: 0px;
+    font-family: 'inter', sans-serif;
+    
+}
+
+.menu-superior {
+    background-image: url(./imagens/imagem-fundo-menu-superior.svg);
+    color: #ffffff;
+}
+
+.imagem {
+    margin-top: 52px;
+    margin-left: 56px;
+}
+
+.titulo {
+    font-weight: 400;
+    margin-top: 71px;
+    margin-left: 172px;
+}
+
+.paragrafo {
+    font-weight: 400;
+    margin-top: 32px;
+    margin-left: 172px;
+    padding-bottom: 151px;
+}
+
+.menu-informacional {
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.menuinformativo__icone {
+   margin: 50px 0 50px 172px;
+   padding: 10px;
+}
+
+.menuinformativo__texto {
+    display: flex;
+    align-items: center;
+}
+
+.secao_video{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.secao_video__video {
+    margin: 50px 25px 50px 172px;
+}
+
+.secao_video__texto {
+    margin: 50px 25px 50px 50px;
+}
+
+.secao_video__titulo {
+    color: #247BA0;
+}
+
+#carrossel {
+    background-color: #247BA0;
+    
+}
+
+#carrossel_texto {
+    font-weight: 700;
+    font-size: 32px;
+    color: #EAECE5;
+    text-align: center;
+    padding: 80px 0 64px 0;
+}
+
+#div-cards {
+    display: grid;
+    grid-auto-flow: column;
+    margin-left: 172px;
+    padding-bottom: 80px;
+}
+
+.seta {
+    margin-top: 65%;
+    cursor: pointer;
+}
+
+.seta:hover {
+    transform: translatey(-7px);
+    transition-duration: 0.5s;
+}
+
+#seta-esquerda{
+    display: none;
+}
+
+#bruna {
+    display: none;
+}
+
+#leonardo {
+    display: flex;
+}
+
+#formulario {
+    text-align: center;
+    
+}
+
+#titulo-formulario {
+    margin: 22px 0 47px 0;
+    font-weight: 700;
+    font-size: 32px;
+
+}
+
+input {
+    background-color: #EAECE5;
+    color: #383838;
+    border: 0;
+    border-radius: 8px;
+    width: 413px;
+    height: 60px;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0px 0px 39px 0px;
+    padding: 0px 20px 0px 19px;
+}
+
+button {
+    border: 0px;
+    border-radius: 8px;
+    background-color: #1a5670;
+    width: 335px;
+    height: 60px;
+    margin-bottom: 109px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+button:hover {
+    background-color: #6ac1e7;
+    transform: translateY(-3px);
+    transition-duration: 0.5s;
+    box-shadow: 0 5px 10px #0e2e3c5f;
+}
